@@ -1,0 +1,241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko"  xml:lang="ko">
+<meta http-equiv="Content-Type" Content="text/html; charset=utf-8" />
+ <html lang="en">
+
+    <head>
+ 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> 오 작 교 </title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/form-elements.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/modern-business.css" rel="stylesheet">
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+ 
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="assets/ico/favicon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+
+
+
+
+
+    </head>
+
+    <body>
+
+        <!-- Top content -->
+        <div class="top-content">
+            <div class="inner-bg">
+                <div class="container">
+                <div class="description"><!-- 공백 라인--></div>
+                    <div class="row">
+                        <!-- 
+                        <div class="col-sm-8 col-sm-offset-2 text">
+                            <h1><strong> 오 작 교 </strong> </h1>
+                        </div>
+                         -->
+       
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-3 form-box">
+                        	<div class="form-top">
+                        		<div class="form-top-left">
+                        			<h2><b> 오 작 교 </b></h2>
+                            		<p>Enter your username and password to log on:</p>
+                            		
+                        		</div>
+                            </div>
+                            <div class="form-bottom">
+			                    <form role="form" action="login" method="post" class="login-form">
+			                    	<div class="form-group" style="position:relative;width:100%">
+			                    		<label class="sr-only" for="form-username">Username</label>
+			                        	
+			                        	<input type="text" name="ID" placeholder="Enter your username." class="form-username form-control">
+			                        	
+			                        	<div class="description_formline"><!-- 버튼공백 라인--> </div>
+			                        	<label class="sr-only" for="form-password">Password</label>
+			                        	
+			                        	<input type="password" name="PASSWORD" placeholder="Enter your password" class="form-password form-control">
+			                     		
+			                     		<div class="description_formline"><!-- 버튼공백 라인--> </div>
+			                     		<button type="submit" class="btn">로그인</button>
+			                        </div>
+                            			<a class="launch-modal" href="#" data-modal-id="modal-register">회원가입</a>                      		 
+			                         <!--<button type="submit" class="btn">회원가입</button>-->
+			                    </form>
+		                    </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>          
+        </div>
+		<!-- MODAL -->
+        <div class="modal fade" id="modal-register" tabindex="-1" role="dialog" aria-labelledby="modal-register-label" aria-hidden="true">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal">
+        					<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+        				</button>
+        				<h3 class="modal-title" id="modal-register-label">회원 가입</h3>
+        				<p>아래의 양식을 작성해주세요.</p>
+        			</div>
+        			
+        			<div class="modal-body">
+        			      				
+	                    <form role="form" action="Register" method="post" class="registration-form">
+
+							<div class="form-group">
+	                    	아이디 
+	                    		<label class="sr-only" for="form-username">아이디</label>
+	                        	<input type="text" name="ID" placeholder="사용할 ID를 입력하세요..." class="form-username form-control" id="form-username">
+	                        </div>
+	                        
+	                    	<div class="form-group">
+	                    	비밀번호 
+	                    		<label class="sr-only" for="form-password">비밀번호</label>
+	                        	<input type="text" name="PASSWORD" placeholder="비밀번호를 입력하세요..." class="form-password form-control" id="form-password">
+	                        </div>
+	                    	
+	                    	<div class="form-group">
+	                    	이름 
+	                    		<label class="sr-only" for="form-name">이름</label>
+	                        	<input type="text" name="NAME" placeholder="이름을 입력하세요..." class="form-name form-control" id="formt-name">
+	                        </div>
+	                      	  나이
+	                        <div class="form-group">
+	                        	<label class="sr-only" for="form-age">나이</label>
+	                        	<input type="text" name="AGE" placeholder="나이를 입력하세요..." class="form-age form-control" id="form-age">
+	                        </div>
+	                     	학번 
+	                        <div class="form-group">
+	                        	<label class="sr-only" for="form-classof">학번</label>
+	                        	<input type="text" name="CLASSOF" placeholder="학번을 입력하세요..." class="form-classof form-control" id="form-classof">
+	                        </div>
+	                        
+	                                    성격 
+	                        <div class="form-group">
+	                        	<label class="sr-only" for="form-character">성격</label>
+	                        	<input type="text" name="CHARACTER" placeholder="성격을 입력하세요..." class="form-character form-control" id="form-character">
+	                        </div>
+	                                   
+	                                    종교 
+	                        <div class="form-group">
+	                        	<label class="sr-only" for="form-reli">종교</label>
+	                        	<input type="text" name="RELI" placeholder="종교를 입력하세요..." class="form-reli form-control" id="form-reli">
+	                        </div>
+	                       
+	                                    취미 
+	                        <div class="form-group">
+	                        	<label class="sr-only" for="form-hobby">취미</label>
+	                        	<input type="text" name="HOBBY" placeholder="취미를 입력하세요..." class="form-hobby form-control" id="form-hobby">
+	                        </div>
+	                                    거주지 <BR>
+	                        <div class="form-group">	 	
+     							 <div class="col-lg-5">
+     								 <select class="form-control" name="LIVE">
+										<option>시/도를 입력하세요.</option>
+										<option>강원도</option>
+										<option>경기도</option>
+										<option>경상남도</option>
+										<option>경상북도</option>
+										<option>광주광역시</option>
+										<option>대구광역시</option>
+										<option>대전광역시</option>
+										<option>부산광역시</option>
+										<option>서울특별시</option>
+										<option>울산광역시</option>
+										<option>인천광역시</option>
+										<option>전라남도</option>
+										<option>전라북도</option>
+										<option>제주특별자치...</option>
+										<option>충청남도</option>
+										<option>충청북도</option>
+										<option>세종특별자치...</option>
+											 </select>
+										     </div>
+ 							  </div> <BR>
+	                    	성별  
+	                    	<div class="radio">
+  							<label>
+    						<input type="radio" name="GENDER" id="form-gender" value="MALE" checked>
+    								남자
+  							</label>
+							</div>
+							<div class="radio">
+  							<label>
+    						<input type="radio" name="GENDER" id="form-gender" value="FEMALE" >
+    								여자
+  							</label>
+							</div>          
+	                       	자기소개 
+	                        <div class="form-group">
+	                        	<label class="sr-only" for="form-about-yourself">자기소개</label>
+	                        	<textarea name="INTRODUCE" placeholder="간단한 소개..." 
+	                        				class="form-about-yourself form-control" id="form-about-yourself"></textarea>
+	                        </div>
+	                        <button type="submit" class="btn">가입</button>
+	                        
+	                        <!--<button type="submit" class="btn">취소</button>-->
+	                    </form>
+	                    
+        			</div>
+        			
+        		</div>
+        	</div>
+        </div>		
+        <!-- Javascript -->
+        <script src="assets/js/jquery-1.11.1.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+        
+        <!--[if lt IE 10]>
+            <script src="assets/js/placeholder.js"></script>
+        <![endif]-->
+              <!-- SCM Music Player http://scmplayer.net -->
+<script type="text/javascript" src="http://scmplayer.net/script.js" 
+data-config="{'skin':'http://static.tumblr.com/su8juwr/xhlmnddtx/loveislove.css','volume':50,'autoplay':true,'shuffle':false,'repeat':1,'placement':'top','showplaylist':false,
+'playlist':[
+
+{'title':'다른별','url':'https://www.youtube.com/watch?v=tULOv16t96g'},
+{'title':'칵테일 사랑','url':'https://www.youtube.com/watch?v=3z1KFSdP084'},
+{'title':'수련의 숲','url':'https://www.youtube.com/watch?v=3QqPl-pBW14'},
+{'title':'다시 사랑한다면','url':'http://www.youtube.com/watch?v=eZjxU8gkTC0'}
+
+]
+}" ></script>
+<!— SCM Music Player script end —>
+    </body>
+</html>
+
+
+
